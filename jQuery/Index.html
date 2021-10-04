@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+	<table>
+		<tr>
+			<td class="aside">
+				<input type="button" name="left" id="left" value="<">
+			</td>
+			<td>
+				<p id="move">Element</p>
+			</td>
+			<td class="aside">
+				<input type="button" name="right" id="right" value=">">
+			</td>
+		</tr>
+	</table>
+	
+	<script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+	<script type="text/javascript">
+		var pad = parseInt($('#move').css('padding-left'));
+		console.log(pad)
+		$("#left").click
+		(
+
+			function(event)
+			{
+				$('#move').css("padding-left", ""+(pad-100)+"px");
+				pad-=100;
+				console.log(pad)
+			}
+		)
+
+		$("#right").click
+		(
+			function(event)
+			{
+				$('#move').css("padding-left", ""+(pad+100)+"px");
+				pad+=100;
+				console.log(pad)
+			}
+		)
+	</script>
+</body>
+</html>

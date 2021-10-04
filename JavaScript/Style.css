@@ -1,0 +1,40 @@
+ul{
+  list-style:none;
+  margin:0;
+  padding: 0;
+  text-align:  center;
+}
+
+li{
+  content: '';
+  display: inline-block;
+  height:50px;
+  width: 50px;
+  vertical-align: middle;
+
+  outline-style: solid;
+  border-radius:50%;
+  margin-right:5px;
+}
+
+#brashes{
+	margin: 10px;
+}
+
+#red         { background-color: red; }
+#blue       { background-color: blue; }
+#green     { background-color: green; }
+#yellow   { background-color: yellow; }
+#magenta { background-color: magenta; }
+#cyan       { background-color: cyan; }
+#orange   { background-color: orange; }
+#gray       { background-color: gray; }
+#lime       { background-color: lime; }
+#olive     { background-color: olive; }
+
+#canvas {
+	left:50%;
+	margin-left: -250px; 
+	position: absolute;
+	border: black double 5px;
+}
